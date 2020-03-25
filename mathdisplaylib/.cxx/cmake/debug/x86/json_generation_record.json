@@ -43,24 +43,6 @@
   },
   {
     "level": "INFO",
-    "message": "- expected json /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/android_gradle_build.json file is not present, will remove stale json folder",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "- missing previous command file /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/build_command.txt, will remove stale json folder",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
     "message": "removing stale contents from \u0027/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86\u0027",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "debug|x86"
@@ -416,6 +398,12 @@
   {
     "level": "INFO",
     "message": "write build output /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/build_output.txt",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "deleted unexpected build output /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/x86/libc++_shared.so in incremental regenerate",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "debug|x86"
   },

@@ -174,7 +174,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/Users/aloknair/Documents/GitHub/AndroidMath/.cxx",
         "cxxFolder": "/Users/aloknair/Documents/GitHub/AndroidMath/.cxx",
-        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -197,8 +196,10 @@
     "objFolder": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
+      "ARMEABI_V7A",
       "ARM64_V8A",
-      "ARMEABI_V7A"
+      "X86",
+      "X86_64"
     ]
   }
 }
