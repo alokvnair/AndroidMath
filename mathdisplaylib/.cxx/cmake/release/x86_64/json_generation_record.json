@@ -13,24 +13,6 @@
   },
   {
     "level": "INFO",
-    "message": "Trying to locate CMake in local SDK repository.",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "release|x86_64"
-  },
-  {
-    "level": "INFO",
-    "message": "- CMake found in SDK at \u0027/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "release|x86_64"
-  },
-  {
-    "level": "INFO",
-    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "release|x86_64"
-  },
-  {
-    "level": "INFO",
     "message": "rebuilding JSON /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64/android_gradle_build.json due to:",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
@@ -50,6 +32,12 @@
   {
     "level": "INFO",
     "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64\u0027",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
   },
@@ -319,49 +307,103 @@
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at CMakeLists.txt:18 (find_package):\\n  By not providing \\\"Findcdep-dependencies.cmake\\\" in CMAKE_MODULE_PATH this\\n  project has asked CMake to find a package configuration file provided by\\n  \\\"cdep-dependencies\\\", but CMake did not find one.\\n\\n  Could not find a package configuration file provided by \\\"cdep-dependencies\\\"\\n  with any of the following names:\\n\\n    cdep-dependenciesConfig.cmake\\n    cdep-dependencies-config.cmake\\n\\n  Add the installation prefix of \\\"cdep-dependencies\\\" to CMAKE_PREFIX_PATH or\\n  set \\\"cdep-dependencies_DIR\\\" to a directory containing one of the above\\n  files.  If \\\"cdep-dependencies\\\" provides a separate development package or\\n  SDK, be sure it has been installed.\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "release|x86_64"
-  },
-  {
-    "level": "ERROR",
-    "message": "CMake Error at /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt:18 (find_package):\n  By not providing \"Findcdep-dependencies.cmake\" in CMAKE_MODULE_PATH this\n  project has asked CMake to find a package configuration file provided by\n  \"cdep-dependencies\", but CMake did not find one.\n\n  Could not find a package configuration file provided by \"cdep-dependencies\"\n  with any of the following names:\n\n    cdep-dependenciesConfig.cmake\n    cdep-dependencies-config.cmake\n\n  Add the installation prefix of \"cdep-dependencies\" to CMAKE_PREFIX_PATH or\n  set \"cdep-dependencies_DIR\" to a directory containing one of the above\n  files.  If \"cdep-dependencies\" provides a separate development package or\n  SDK, be sure it has been installed.\n",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "release|x86_64"
-  },
-  {
-    "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\\nSee also \\\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64/CMakeFiles/CMakeOutput.log\\\".\",\"type\":\"message\"}\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
   },
   {
     "level": "INFO",
-    "message": "Configuring incomplete, errors occurred!\nSee also \"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64/CMakeFiles/CMakeOutput.log\".",
+    "message": "Configuring done",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
-    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
-    "tag": "release|x86_64"
-  },
-  {
-    "level": "ERROR",
-    "message": "Configuration failed.",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin).\r\nCheck for working C compiler: /Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\nCheck for working C compiler: /Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\nDetecting C compiler ABI info\nDetecting C compiler ABI info - done\nDetecting C compile features\nDetecting C compile features - done\nCheck for working CXX compiler: /Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\nCheck for working CXX compiler: /Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\nDetecting CXX compiler ABI info\nDetecting CXX compiler ABI info - done\nDetecting CXX compile features\nDetecting CXX compile features - done\nCMake Error at CMakeLists.txt:18 (find_package):\n  By not providing \"Findcdep-dependencies.cmake\" in CMAKE_MODULE_PATH this\n  project has asked CMake to find a package configuration file provided by\n  \"cdep-dependencies\", but CMake did not find one.\n\n  Could not find a package configuration file provided by \"cdep-dependencies\"\n  with any of the following names:\n\n    cdep-dependenciesConfig.cmake\n    cdep-dependencies-config.cmake\n\n  Add the installation prefix of \"cdep-dependencies\" to CMAKE_PREFIX_PATH or\n  set \"cdep-dependencies_DIR\" to a directory containing one of the above\n  files.  If \"cdep-dependencies\" provides a separate development package or\n  SDK, be sure it has been installed.\n\n\nConfiguring incomplete, errors occurred!\nSee also \"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64/CMakeFiles/CMakeOutput.log\".\n",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake\",\"/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake\",\"/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake\",\"../../../.cdep/modules/cdep-dependencies-config.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\"targets\":[{\"artifacts\":[\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/x86_64/libmain.so\"],\"buildDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC  \",\"defines\":[\"main_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/aloknair/.cdep/exploded/com.github.jomof/freetype/2.6.2-rev14/headers.zip/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"freetype_jni.cpp\"]}],\"fullName\":\"libmain.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/Users/aloknair/.cdep/exploded/com.github.jomof/freetype/2.6.2-rev14/freetype-android-cxx-platform-21-x86_64.zip/lib/x86_64/libfreetype.a -llog -landroid -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"main\",\"sourceDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\"sysroot\":\"/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64/build_output.txt",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64/build_command.txt",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
     "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
     "tag": "release|x86_64"
   }
