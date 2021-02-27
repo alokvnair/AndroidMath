@@ -1,0 +1,73 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/aloknair/Documents/Playground/AndroidMath",
+      "sdkFolder": "/Users/aloknair/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates",
+      "gradleModulePathName": ":mathdisplaylib",
+      "moduleRootFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib",
+      "makeFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/aloknair/Documents/Playground/AndroidMath/.cxx",
+      "cxxFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx",
+      "ndkFolder": "/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-Dcdep-dependencies_DIR\u003d../../../.cdep/modules",
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}
