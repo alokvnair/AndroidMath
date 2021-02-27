@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/../../../.cdep/modules/cdep-dependencies-config.cmake",
+    "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "main-Release-x86": {
+      "artifactName": "main",
+      "buildCommand": "/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.externalNativeBuild/cmake/release/x86 --target main",
+      "abi": "x86",
+      "output": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/x86/libmain.so"
+    }
+  }
+}

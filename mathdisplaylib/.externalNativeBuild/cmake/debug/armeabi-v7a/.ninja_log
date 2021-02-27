@@ -1,0 +1,6 @@
+# ninja log v5
+0	821	1614362129004831033	CMakeFiles/main.dir/freetype_jni.cpp.o	d231c84811a053f9
+822	927	1614362129111714872	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so	398591a049643847
+0	94	1614397218512354363	build.ninja	794593ef917cbeb4
+1	617	1614397219126415174	CMakeFiles/main.dir/freetype_jni.cpp.o	d231c84811a053f9
+617	724	1614397219228836293	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so	398591a049643847

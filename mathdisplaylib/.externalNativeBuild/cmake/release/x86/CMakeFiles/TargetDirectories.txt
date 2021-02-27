@@ -1,0 +1,3 @@
+/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.externalNativeBuild/cmake/release/x86/CMakeFiles/main.dir
