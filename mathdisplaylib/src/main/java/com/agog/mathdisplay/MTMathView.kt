@@ -1,17 +1,17 @@
 package com.agog.mathdisplay
 
-import android.view.View
-import com.agog.mathdisplay.render.MTFont
-import com.agog.mathdisplay.render.MTMathListDisplay
 import android.content.Context
-import android.util.AttributeSet
-import com.agog.mathdisplay.parse.*
-import com.agog.mathdisplay.render.MTTypesetter
-import com.agog.mathdisplay.MTMathView.MTTextAlignment.*
-import com.agog.mathdisplay.MTMathView.MTMathViewMode.*
 import android.content.res.Resources
 import android.graphics.*
-
+import android.util.AttributeSet
+import android.view.View
+import com.agog.mathdisplay.MTMathView.MTMathViewMode.KMTMathViewModeDisplay
+import com.agog.mathdisplay.MTMathView.MTMathViewMode.KMTMathViewModeText
+import com.agog.mathdisplay.MTMathView.MTTextAlignment.*
+import com.agog.mathdisplay.parse.*
+import com.agog.mathdisplay.render.MTFont
+import com.agog.mathdisplay.render.MTMathListDisplay
+import com.agog.mathdisplay.render.MTTypesetter
 
 /** View subclass for rendering LaTeX Math.
 
@@ -27,9 +27,9 @@ When created it uses `MTFontManager.defaultFont` as its font. This can be change
 the `font` parameter.
  */
 class MTMathView @JvmOverloads constructor(
-        context: Context,
-        attrs: AttributeSet? = null,
-        defStyle: Int = 0
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyle: Int = 0
 ) : View(context, attrs, defStyle) {
 
     private var displayList: MTMathListDisplay? = null
@@ -91,9 +91,10 @@ class MTMathView @JvmOverloads constructor(
      * and limits on large operators are displayed.
      */
     enum class MTMathViewMode {
-        /// Display mode. Equivalent to $$ in TeX
+        // / Display mode. Equivalent to $$ in TeX
         KMTMathViewModeDisplay,
-        /// Text mode. Equivalent to $ in TeX.
+
+        // / Text mode. Equivalent to $ in TeX.
         KMTMathViewModeText
     }
 
@@ -102,11 +103,13 @@ class MTMathView @JvmOverloads constructor(
      * See **textAlignment**
      */
     enum class MTTextAlignment {
-        /// Align left.
+        // / Align left.
         KMTTextAlignmentLeft,
-        /// Align center.
+
+        // / Align center.
         KMTTextAlignmentCenter,
-        /// Align right.
+
+        // / Align right.
         KMTTextAlignmentRight
     }
 
@@ -187,8 +190,10 @@ class MTMathView @JvmOverloads constructor(
         }
 
     private fun displayError(): Boolean {
-        return (lastError.errorcode != MTParseErrors.ErrorNone &&
-                this.displayErrorInline)
+        return (
+            lastError.errorcode != MTParseErrors.ErrorNone &&
+                this.displayErrorInline
+            )
     }
 
     /**
@@ -207,23 +212,22 @@ class MTMathView @JvmOverloads constructor(
         paint.color = Color.RED
         paint.textSize = convertDpToPixel(errorFontSize)
         val r = errorBounds()
-        canvas.drawText(lastError.errordesc, 0.0f, -r.top.toFloat(), paint)
+        canvas.drawText(lastError.errordesc ?: "", 0.0f, -r.top.toFloat(), paint)
         return true
     }
 
     private fun errorBounds(): Rect {
-        if (displayError()) {
+        return if (displayError()) {
             val paint = Paint()
-            paint.typeface = Typeface.DEFAULT// your preference here
+            paint.typeface = Typeface.DEFAULT // your preference here
             paint.textSize = convertDpToPixel(errorFontSize)
             val bounds = Rect()
             paint.getTextBounds(lastError.errordesc, 0, lastError.errordesc!!.length, bounds)
-            return bounds
+            bounds
         } else {
-            return Rect(0, 0, 0, 0)
+            Rect(0, 0, 0, 0)
         }
     }
-
 
     override fun onDraw(canvas: Canvas) {
         // call the super method to keep any drawing from the parent side.
@@ -298,6 +302,4 @@ class MTMathView @JvmOverloads constructor(
         width = maxOf(width, r.width().toFloat())
         setMeasuredDimension((width + 1.0f).toInt(), (height + 1.0f).toInt())
     }
-
-
 }

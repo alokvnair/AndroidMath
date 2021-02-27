@@ -3,17 +3,17 @@ The host system is: Darwin - 20.2.0 - x86_64
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f8231"
-[1/2] Building C object CMakeFiles/cmTC_f8231.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_f8231
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_52a53"
+[1/2] Building C object CMakeFiles/cmTC_52a53.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_52a53
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7e1f7"
-[1/2] Building C object CMakeFiles/cmTC_7e1f7.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_7e1f7
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_50a07"
+[1/2] Building C object CMakeFiles/cmTC_50a07.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_50a07
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: i686-none-linux-android21
 Thread model: posix
@@ -23,16 +23,16 @@ Found candidate GCC installation: /Users/aloknair/Library/Android/sdk/ndk/20.0.5
 Selected GCC installation: /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_7e1f7 /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_7e1f7.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+ "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_50a07 /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_50a07.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7e1f7"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_7e1f7.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_7e1f7]
+  ignore line: [Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_50a07"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_50a07.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_50a07]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: i686-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_7e1f7 /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_7e1f7.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+  link line: [ "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_50a07 /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_50a07.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
     arg [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -58,7 +58,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7e1f7] ==> ignore
+    arg [cmTC_50a07] ==> ignore
     arg [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386] ==> dir [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386]
     arg [-L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -76,7 +76,7 @@ Parsed C implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_7e1f7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_50a07.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -99,9 +99,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fd203"
-[1/2] Building C object CMakeFiles/cmTC_fd203.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_fd203
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e6a7d"
+[1/2] Building C object CMakeFiles/cmTC_e6a7d.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_e6a7d
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -113,9 +113,9 @@ Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6ead6"
-[1/2] Building C object CMakeFiles/cmTC_6ead6.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_6ead6
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_39de8"
+[1/2] Building C object CMakeFiles/cmTC_39de8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_39de8
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -127,9 +127,9 @@ Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_819cc"
-[1/2] Building C object CMakeFiles/cmTC_819cc.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_819cc
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_98b68"
+[1/2] Building C object CMakeFiles/cmTC_98b68.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_98b68
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -139,17 +139,17 @@ Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_62b9d"
-[1/2] Building CXX object CMakeFiles/cmTC_62b9d.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_62b9d
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0e822"
+[1/2] Building CXX object CMakeFiles/cmTC_0e822.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_0e822
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_babfd"
-[1/2] Building CXX object CMakeFiles/cmTC_babfd.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_babfd
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7d3cb"
+[1/2] Building CXX object CMakeFiles/cmTC_7d3cb.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_7d3cb
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: i686-none-linux-android21
 Thread model: posix
@@ -159,16 +159,16 @@ Found candidate GCC installation: /Users/aloknair/Library/Android/sdk/ndk/20.0.5
 Selected GCC installation: /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_babfd /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_babfd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+ "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_7d3cb /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_7d3cb.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_babfd"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_babfd.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_babfd]
+  ignore line: [Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7d3cb"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_7d3cb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_7d3cb]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: i686-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -180,7 +180,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_babfd /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_babfd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+  link line: [ "/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_7d3cb /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_7d3cb.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
     arg [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -194,7 +194,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_babfd] ==> ignore
+    arg [cmTC_7d3cb] ==> ignore
     arg [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386] ==> dir [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386]
     arg [-L/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -212,7 +212,7 @@ Parsed CXX implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_babfd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_7d3cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -237,9 +237,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_18e51"
-[1/2] Building CXX object CMakeFiles/cmTC_18e51.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_18e51
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_96f54"
+[1/2] Building CXX object CMakeFiles/cmTC_96f54.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_96f54
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -304,9 +304,9 @@ Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a92d6"
-[1/2] Building CXX object CMakeFiles/cmTC_a92d6.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a92d6
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1ab0b"
+[1/2] Building CXX object CMakeFiles/cmTC_1ab0b.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_1ab0b
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -371,9 +371,9 @@ Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_eb3f2"
-[1/2] Building CXX object CMakeFiles/cmTC_eb3f2.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_eb3f2
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7c462"
+[1/2] Building CXX object CMakeFiles/cmTC_7c462.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_7c462
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -438,9 +438,9 @@ Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1b55e"
-[1/2] Building CXX object CMakeFiles/cmTC_1b55e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_1b55e
+Run Build Command:"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ac34e"
+[1/2] Building CXX object CMakeFiles/cmTC_ac34e.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_ac34e
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

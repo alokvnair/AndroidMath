@@ -1,16 +1,23 @@
-Executable : /Users/aloknair/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+                Executable : /Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/src/main/cpp
--B/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64
--DANDROID_ABI=x86_64
--DANDROID_PLATFORM=android-19
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/x86_64
+-H/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp
+-DCMAKE_FIND_ROOT_PATH=/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/prefab/x86_64/prefab
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669
--DCMAKE_TOOLCHAIN_FILE=/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=/Users/aloknair/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
--GAndroid Gradle - Ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_MAKE_PROGRAM=/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
 -Dcdep-dependencies_DIR=../../../.cdep/modules
 -DANDROID_STL=c++_shared
+-B/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64
+-GNinja
 jvmArgs : 
 
+Build command args:

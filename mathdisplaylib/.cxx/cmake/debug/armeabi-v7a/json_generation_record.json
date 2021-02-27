@@ -1,66 +1,206 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a"
+    "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "No CMake version was specified in build.gradle. Choosing a suitable version."
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Trying to locate CMake in local SDK repository."
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "CMake \u00273.10.2\u0027 found in SDK did not match requested version \u00273.6.0\u0027."
+    "message": "- CMake found in SDK at \u0027/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- CMake found in SDK at \u0027/Users/aloknair/Library/Android/sdk/cmake/3.6.4111459\u0027 had version \u00273.6.0\u0027"
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:"
+    "message": "rebuilding JSON /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- expected json /Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder"
+    "message": "- a dependent build file changed",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- missing previous command file /Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/build_command.txt, will remove stale json folder"
+    "message": "  - /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cdep/modules/cdep-dependencies-config.cmake",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder"
+    "message": "keeping json folder \u0027/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\u0027 but regenerating project",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "created folder \u0027/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\u0027"
+    "message": "executing cmake Executable : /Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-Dcdep-dependencies_DIR\u003d../../../.cdep/modules\n-DANDROID_STL\u003dc++_shared\n-B/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /Users/aloknair/Library/Android/sdk/cmake/3.6.4111459/bin/cmake\narguments : \n-H/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/src/main/cpp\n-B/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/aloknair/Library/Android/sdk/cmake/3.6.4111459/bin/ninja\n-GAndroid Gradle - Ninja\n-Dcdep-dependencies_DIR\u003d../../../.cdep/modules\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n"
+    "message": "\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Executable : /Users/aloknair/Library/Android/sdk/cmake/3.6.4111459/bin/cmake\narguments : \n-H/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/src/main/cpp\n-B/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/aloknair/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/aloknair/Library/Android/sdk/cmake/3.6.4111459/bin/ninja\n-GAndroid Gradle - Ninja\n-Dcdep-dependencies_DIR\u003d../../../.cdep/modules\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n"
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "done executing cmake"
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "write build output /Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/build_output.txt"
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "write command file /Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/build_command.txt"
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\n  \"buildDirectory\": \"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed without problems"
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-Dcdep-dependencies_DIR\\u003d../../../.cdep/modules\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\"/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake\",\"../../../.cdep/modules/cdep-dependencies-config.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\"targets\":[{\"artifacts\":[\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so\"],\"buildDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march\u003darmv7-a -mthumb -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"main_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/aloknair/.cdep/exploded/com.github.jomof/freetype/2.6.2-rev14/headers.zip/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"freetype_jni.cpp\"]}],\"fullName\":\"libmain.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack\",\"linkLibraries\":\"/Users/aloknair/.cdep/exploded/com.github.jomof/freetype/2.6.2-rev14/freetype-android-cxx-platform-21-armeabi-v7a.zip/lib/armeabi-v7a/libfreetype.a -llog -landroid -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"main\",\"sourceDirectory\":\"/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp\",\"sysroot\":\"/Users/aloknair/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   }
 ]

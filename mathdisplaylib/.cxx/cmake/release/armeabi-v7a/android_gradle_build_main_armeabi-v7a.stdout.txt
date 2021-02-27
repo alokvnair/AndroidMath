@@ -1,0 +1,6 @@
+ninja: Entering directory `/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/armeabi-v7a'
+[0/1] Re-running CMake...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/armeabi-v7a
+ninja: no work to do.

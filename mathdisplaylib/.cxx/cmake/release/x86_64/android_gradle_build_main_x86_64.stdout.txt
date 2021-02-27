@@ -1,0 +1,7 @@
+ninja: Entering directory `/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64'
+[0/1] Re-running CMake...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86_64
+[1/2] Building CXX object CMakeFiles/main.dir/freetype_jni.cpp.o
+[2/2] Linking CXX shared library /Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/x86_64/libmain.so

@@ -1,0 +1,18 @@
+# ninja log v5
+0	1091	1614430977	CMakeFiles/main.dir/freetype_jni.cpp.o	a0fd8701b183d5a3
+1092	1175	1614430977	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/armeabi-v7a/libmain.so	2d0817e3138f677
+1	94	1614431149	build.ninja	e8b0b586f1a98a82
+0	6	0	clean	de805e5a147c7026
+0	82	1614431308	build.ninja	e8b0b586f1a98a82
+1	5	0	clean	de805e5a147c7026
+0	77	1614431400	build.ninja	e8b0b586f1a98a82
+0	6	0	clean	de805e5a147c7026
+0	97	1614431427	build.ninja	e8b0b586f1a98a82
+2	1010	1614431428	CMakeFiles/main.dir/freetype_jni.cpp.o	a0fd8701b183d5a3
+1010	1097	1614431428	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/armeabi-v7a/libmain.so	2d0817e3138f677
+0	91	1614431801	build.ninja	e8b0b586f1a98a82
+0	5	0	clean	de805e5a147c7026
+0	66	1614431844	build.ninja	e8b0b586f1a98a82
+1	1065	1614431845	CMakeFiles/main.dir/freetype_jni.cpp.o	a0fd8701b183d5a3
+1065	1139	1614431845	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/armeabi-v7a/libmain.so	2d0817e3138f677
+0	67	1614432401	build.ninja	e8b0b586f1a98a82

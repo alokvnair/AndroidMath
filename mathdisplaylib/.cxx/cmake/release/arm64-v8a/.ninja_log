@@ -1,0 +1,18 @@
+# ninja log v5
+0	609	1614430978	CMakeFiles/main.dir/freetype_jni.cpp.o	7034785983f867bc
+610	670	1614430978	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/arm64-v8a/libmain.so	ef384cde5a0d9113
+1	79	1614431149	build.ninja	2e97b19789f5ad40
+0	5	0	clean	de805e5a147c7026
+0	81	1614431308	build.ninja	2e97b19789f5ad40
+0	5	0	clean	de805e5a147c7026
+0	75	1614431400	build.ninja	2e97b19789f5ad40
+0	5	0	clean	de805e5a147c7026
+0	73	1614431428	build.ninja	2e97b19789f5ad40
+1	600	1614431429	CMakeFiles/main.dir/freetype_jni.cpp.o	7034785983f867bc
+600	677	1614431429	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/arm64-v8a/libmain.so	ef384cde5a0d9113
+0	81	1614431801	build.ninja	2e97b19789f5ad40
+0	5	0	clean	de805e5a147c7026
+0	69	1614431845	build.ninja	2e97b19789f5ad40
+1	557	1614431845	CMakeFiles/main.dir/freetype_jni.cpp.o	7034785983f867bc
+557	642	1614431846	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/arm64-v8a/libmain.so	ef384cde5a0d9113
+0	67	1614432401	build.ninja	2e97b19789f5ad40

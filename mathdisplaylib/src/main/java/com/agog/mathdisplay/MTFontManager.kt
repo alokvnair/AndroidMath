@@ -5,7 +5,6 @@ import android.content.res.AssetManager
 import com.agog.mathdisplay.parse.MathDisplayException
 import com.agog.mathdisplay.render.MTFont
 
-
 const val KDefaultFontSize = 20f
 
 class MTFontManager {
@@ -29,10 +28,10 @@ class MTFontManager {
                 }
                 return f
             }
-            if (f.fontSize == size) {
-                return f
+            return if (f.fontSize == size) {
+                f
             } else {
-                return f.copyFontWithSize(size)
+                f.copyFontWithSize(size)
             }
         }
 
@@ -44,17 +43,8 @@ class MTFontManager {
             return fontWithName("latinmodern-math", size)
         }
 
-        fun xitsFontWithSize(size: Float): MTFont? {
-            return fontWithName("xits-math", size)
-        }
-
-        fun termesFontWithSize(size: Float): MTFont? {
-            return fontWithName("texgyretermes-math", size)
-        }
-
         fun defaultFont(): MTFont? {
             return latinModernFontWithSize(KDefaultFontSize)
         }
-
     }
 }

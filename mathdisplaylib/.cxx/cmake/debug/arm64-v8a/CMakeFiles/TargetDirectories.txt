@@ -1,3 +1,3 @@
-/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/aloknair/Documents/Playground/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/CMakeFiles/main.dir
+/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/debug/arm64-v8a/CMakeFiles/main.dir
