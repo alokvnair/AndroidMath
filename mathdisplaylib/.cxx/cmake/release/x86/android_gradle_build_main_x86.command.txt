@@ -1,7 +1,0 @@
-Executable : /Users/aloknair/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/.cxx/cmake/release/x86
-main
-jvmArgs : 
-

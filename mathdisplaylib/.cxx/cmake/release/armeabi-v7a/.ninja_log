@@ -1,5 +1,0 @@
-# ninja log v5
-0	902	1585133055	CMakeFiles/main.dir/freetype_jni.cpp.o	99fae3beaf1ad926
-903	966	1585133055	/Users/aloknair/Documents/GitHub/AndroidMath/mathdisplaylib/build/intermediates/cmake/release/obj/armeabi-v7a/libmain.so	a44c18417175adbb
-0	880	1585162656	build.ninja	e8b0b586f1a98a82
-1	1212	1585163172	build.ninja	e8b0b586f1a98a82
