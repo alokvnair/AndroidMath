@@ -1,1 +1,6 @@
-/build
+/build/
+/mathdisplaylib/.cxx/
+/mathdisplaylib/.externalNativeBuild/
+/.gradle/
+/mathdisplaylib/build/
+/.idea/
